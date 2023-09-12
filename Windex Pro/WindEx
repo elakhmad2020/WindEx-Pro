@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <tittle>WindEx</tittle>
+    <link href='https://fonts.googleapis.com/css?
+    family=Covered+By+Your+Grace|Raleway:100,500,600,800' 
+    rel='stylesheet'>
+</head>
+<body>
+    <div class='header'>
+        <h1>Your Number One Logistics Comapany</h1>
+    </div>
+
+    <div class='Logistics'>
+    <h3>Why WindEx</h3>
+    <p>The logistics industry has seen enormous increase,
+        a lot of newbies are entering the industry with different 
+        strategies to take their market share using remarkebale 
+        strategies. What they missed is that, the industry now patronizes 
+        hospitality more than just picking up parcel from one destination
+        to another. WindEx is here to give you that hospitality experiecne.
+        <a href='#'>Learn More about WindEx</a>
+    </p>
+    </div>
+
+</body>
+</html>

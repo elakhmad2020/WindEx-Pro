@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+/* CSS Variables */
+:root {
+  --normal-font: 400;
+  --bold-font: 600;
+  --bolder-font: 900;
+  --primary-color: #891010;
+  --secondary-color: #dc9a37;
+  --line-height: 1.7rem;
+  --transition: 0.4s ease-in;
+}
+
+/* Smooth scroll effect */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: var(--transition);
+}
+
+ body {
+  margin:0;
+  padding:0;
+  font-family: "Tahoma", sans-serf;
+  background-image: url(https://img.freepik.com/free-psd/delivery-3d-illustration-with-person-leaning-against-van_23-2149449428.jpg?w=1800&t=st=1693692354~exp=1693692954~hmac=53ac2dca560b0ba91b90d3d2478bd443f258c0b5db9f28ea8a0b1dcaa030ef44);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+ }
+.main {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url(https://img.freepik.com/free-psd/delivery-3d-illustration-with-person-leaning-against-van_23-2149449428.jpg?w=1800&t=st=1693692354~exp=1693692954~hmac=53ac2dca560b0ba91b90d3d2478bd443f258c0b5db9f28ea8a0b1dcaa030ef44);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  background: linear-gradient(rgb(225,127,80,0.6),rgb(235,77,75,0.5))
+
+}
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+} 
+.wind {
+  color: var(--primary-color);
+}
+.Ex{
+  color: var(--secondary-color);
+}
+
+nav {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  box-shadow: 2px 3px 2px #f1f1f1;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.hamburger {
+  display: none;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 500;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item {
+  margin-left: 1rem;
+}
+.nav-link {
+  font-weight: var(--bold-font)
+}
+

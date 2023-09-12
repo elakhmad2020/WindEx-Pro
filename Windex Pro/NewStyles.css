@@ -1,0 +1,26 @@
+ /* Set a background image for the entire HTML page */
+ body {
+            background-image: url('/Users/ahmadabdullahibayero/Documents/Windex Pro/images/pic4.jpg');
+            background-size: cover; /* Adjust as needed */
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* Fixed background */
+        }
+
+/* Override background for a specific element */
+.container {
+            background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background color */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+/* Override background for another specific element */
+.header {
+            background-color: #333; /* Background color for header */
+            color: #fff; /* Text color for header */
+            padding: 10px;
+            text-align: center;
+        }
+/* Additional CSS for other elements */
+ /* ... */
+
+
